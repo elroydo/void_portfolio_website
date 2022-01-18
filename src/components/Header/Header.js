@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
-import { AiFillGithub, AiFillRobot, AiFillLinkedin } from 'react-icons/ai';
+import { AiFillCompass, AiFillRobot, AiFillHourglass } from 'react-icons/ai';
 import { DiCssdeck } from 'react-icons/di';
 
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './HeaderStyles';
@@ -10,36 +10,36 @@ const Header = () => (
     <Div1>
       <Link href='/'>
         <a style={{ color: 'white', display: 'flex', alignItems: 'center', marginBottom: '20px' }}>
-          <DiCssdeck size='3rem' /> <Span>Portfolio</Span>
+          <DiCssdeck size='3rem' /> <Span>Port</Span>
         </a>
       </Link>
     </Div1>
     <Div2>
       <li>
-        <Link href='#projects'> 
-          <NavLink>Projects</NavLink>
+        <Link href='#potentials'> 
+          <NavLink>potentials</NavLink>
         </Link>
       </li>
       <li>
         <Link href='#technologies'> 
-          <NavLink>Technologies</NavLink>
+          <NavLink>technologies</NavLink>
         </Link>
       </li>
       <li>
         <Link href='#about'> 
-          <NavLink>About</NavLink>
+          <NavLink>about</NavLink>
         </Link>
       </li>
     </Div2>
     <Div3>
-      <SocialIcons href='https://github.com'>
-        <AiFillGithub size='3rem' />
+      <SocialIcons href='https://poets.org/poem/raven'>
+        <AiFillCompass size='3rem' />
       </SocialIcons>
-      <SocialIcons href='https://vanitas.com/'>
+      <SocialIcons href='https://poets.org/poem/raven'>
         <AiFillRobot size='3rem' />
       </SocialIcons>
-      <SocialIcons href='https://www.linkedin.com'>
-        <AiFillLinkedin size='3rem' />
+      <SocialIcons href='https://poets.org/poem/raven'>
+        <AiFillHourglass size='3rem' />
       </SocialIcons>
     </Div3>
   </Container>
